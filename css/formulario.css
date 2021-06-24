@@ -1,0 +1,115 @@
+form {
+	margin: 80px auto;
+	width: 80%;
+	max-width: 500px;
+	background: #63CF55;
+	padding: 30px;
+	border:3px solid black;
+}
+
+form p {
+	text-align: center;
+	margin-bottom: 20px;
+	color: black;
+}
+
+input {
+	display: block;
+	padding: 10px;
+	width: 100%;
+	margin: 30px 0;
+	font-size: 20px;
+}
+
+form .radiod{
+	display: flex;
+	align-items: center;
+	padding-bottom: 25px;
+}
+
+input[type="radio"]{
+	width: 100px;
+}
+
+form select {
+	display: block;
+	padding: 10px;
+	width: 100%;
+	margin: 30px 0;
+	font-size: 20px;
+}
+
+form .checkboxd{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	padding-bottom: 25px;
+}
+
+input[type="checkbox"]{
+	width: 100px;
+}
+
+@media(max-width: 555px){
+	.checkboxd #facil{
+		width: 45%;
+	}
+}
+
+@media(max-width: 400px){
+	.checkboxd #facil{
+		width: 37%;
+	}
+}
+
+form .interesd{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+input[type="range"]{
+	width: 300px;
+}
+
+form .colord{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+input[type="color"]{
+	width: 50%;
+	padding: 0;
+}
+
+textarea {
+	min-width: 100%;
+	max-width: 100%;
+	height: 200px;
+	max-height: 200px;
+	font-size: 25px;
+	padding: 15px;
+	outline-style: none;
+}
+
+input[type="submit"]{
+	background: linear-gradient(#FFDA63, #FFB940);
+	border:0;
+	color: brown;
+	opacity: 0.8;
+	cursor: pointer;
+	border-radius: 20px;
+	margin-bottom: 0;
+}
+
+input[type="submit"]:hover{
+	opacity: 1;
+}
+
+input[type="submit"]:active{
+	transform: scale(0.95);
+}
+
